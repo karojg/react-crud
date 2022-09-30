@@ -1,0 +1,55 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.wrapper-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  overflow: scroll;
+  width: 500px;
+  height: 500px;
+}
+
+.image {
+  border: 1px solid white;
+  width: 250px;
+  height: 200px;
+  max-height: 200px;
+  box-sizing: border-box;
+}
+
+.image-wrapper {
+  cursor: pointer;
+}
+
+form {
+  margin: 10px;
+}
+
+form > div {
+  margin: 10px;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+}
+
+label {
+  padding-right: 5px;
+}
+
+/* TODO: Should use BEM ?*/
